@@ -24,11 +24,7 @@ function showMessage(text, type = "success") {
 function createProduct(value) {
     const article = document.createElement("article");
     article.classList.add("grocery-item");
-
-    const title = document.createElement("p");
-    title.className = "title";
-    title.textContent = value;
-
+    
     article.innerHTML = `
         <p class="title"></p>
         <div class="btn-container">
